@@ -108,5 +108,12 @@
 # dict_['hi'] = 3
 # print(dict_)
 
-# dict_ = {'hi': {'hi': [1, 2, 3, 4]}}
-# print(dict_)
+#Пример про потерю hash  суммы
+
+dict_ = {'hi': 1}
+dict_24 = {'hi': [1,2,34],'key':'3'}
+dict_2 = {'hi': {'g':3}}
+
+print(dict_['hi'].__hash__)
+print(dict_24['key'].__hash__)
+print(dict_2['hi'].__hash__)

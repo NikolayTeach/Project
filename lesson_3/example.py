@@ -110,10 +110,13 @@
 
 #Пример про потерю hash  суммы
 
-dict_ = {'hi': 1}
-dict_24 = {'hi': [1,2,34],'key':'3'}
-dict_2 = {'hi': {'g':3}}
-
-print(dict_['hi'].__hash__)
-print(dict_24['key'].__hash__)
-print(dict_2['hi'].__hash__)
+# dict_ = {'hi': 1}
+# dict_24 = {'hi': [1, 2, 34], 'key': '3'}
+# dict_2 = {'hi': {'g': 3}}
+#
+# print(dict_['hi'].__hash__)
+# print(dict_24['key'].__hash__)
+# print(dict_24['hi'].__hash__)
+# print(dict_2['hi'].__hash__)
+a = dict([(1, 1), (2, 4)])
+print(a)

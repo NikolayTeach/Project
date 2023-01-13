@@ -1,3 +1,5 @@
+import sys
+
 a = [1, 2, 3, 4]
 a.append(a)
 # a.append(3)
@@ -41,3 +43,76 @@ a.append(a)
 # print(d)
 # print(d.get('15'))
 # print(d)
+
+# a = '7'
+# print(float(a))
+# print(typoe(a)
+# print(int(a))
+
+# a = 'girl'
+# b = 'boy'
+# print(a, b, sep='-', file=sys.stderr, end='!\n', flush=True)
+#
+# '''
+#
+# '''
+#
+#
+# """
+# """
+#
+# #  TODO доделать рассчет зарплаты
+
+
+# number1 = int(input('Первое значение: '))
+# number2 = int(input('Второе значение: '))
+
+# if number1 == number2:
+#     print(number1, number2, sep='-', end='равны!\n')
+# else:
+#     if not bool(number2):
+#         print('все хорошо')
+#     else:
+#         print('все пропало')
+
+
+# if number1 == number2:
+#     print(number1, number2, sep='-', end='равны!\n')
+#
+# elif number1 != number2 and number2 == 5:
+#     print(f'{number1} неравна {number2}')
+#
+# elif number1 > number2:
+#     print(f'{number1} больше {number2}')
+#
+# elif number1 < number2:
+#     print(f'{number1} меньше {number2}')
+#
+# else:
+#     print('ок')
+#
+# if number1 == 1:
+#     print('1')
+#
+# elif number2 == 2:
+#     print('2')
+#
+# if number2 == 2:
+#     print('2')
+
+
+
+# if number1 == number2 or number1 != number2 and number2 == 0:
+#     print(number1, number2, sep='-', end='равны!\n')
+#
+# elif number1 != number2:
+#     print(f'{number1} неравна {number2}')
+#
+# elif number1 > number2:
+#     print(f'{number1} больше {number2}')
+#
+# elif number1 < number2:
+#     print(f'{number1} меньше {number2}')
+#
+# else:
+#     print('ок')

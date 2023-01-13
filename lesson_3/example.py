@@ -120,3 +120,6 @@
 # print(dict_2['hi'].__hash__)
 a = dict([(1, 1), (2, 4)])
 print(a)
+
+
+# TODO тест

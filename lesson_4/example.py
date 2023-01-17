@@ -116,3 +116,20 @@ a.append(a)
 #
 # else:
 #     print('ок')
+
+import __hello__
+import this
+print(__hello__.main())
+print(this)
+import keyword
+
+print(keyword.kwlist)
+
+# def get_count(items): return len(items)
+# def get_sum(items): sum_ = 0
+# for i in items: sum_ += i
+# return sum_
+# def main():
+# a = [3,5,6,7]
+# s = get_count(a) t = get_sum(a)
+# cProfile.run('main()')

@@ -138,12 +138,54 @@ import timeit
 #
 # c = a if a > 10 else b
 
-a = [1, 2, 3, 4]
-b = [10, 20, 30, 40]
-e = []
-for i in a:
-    for c in b:
-        e.append(i*c)
+# a = [1, 2, 3, 4]
+# b = [10, 20, 30, 40]
+# e = []
+# for i in a:
+#     for c in b:
+#         e.append(i*c)
+#
+# print(e)
 
-print(e)
 
+
+# попробуем измерять скорость выполнения объявленных функций
+# def my_function_1():  # функция, считающая сумму всех чисел от 0 до 100 с использованием цикла for
+#     total = 0
+#     for i in range(100 + 1):
+#         total += i
+#     return total
+#
+#
+# def my_function_2():  # функция, считающая сумму всех чисел от 0 до 100 с использованием цикла while
+#     total = 0
+#     counter = 0
+#     while counter < 100:
+#         counter += 1
+#         total += counter
+#     return total
+#
+#
+# print(my_function_1(), my_function_2())  # как видим, обе функции делают то же самое
+# # измеряем время выполнения каждой функции, узнаем какой цикл будет работать быстрее
+# print('Цикл for: ', timeit.timeit(stmt='my_function_1()', number=10000, globals=globals()))
+# print('Цикл while: ', timeit.timeit(stmt='my_function_2()', number=10000, globals=globals()))
+# # можем сделать вывод, что цикл for работает быстрее
+
+
+
+# number = 0
+#
+# speed_for = \
+# """
+# result_for = 0
+# for num in range(1, number+1):
+#     result_for += num**2
+# """
+#
+# print(timeit.timeit(speed_for, globals=globals()))
+
+
+# a = {a:a**2 for a in range(1, 10)}
+
+# print({ x for x in range(10)})

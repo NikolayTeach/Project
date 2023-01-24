@@ -16,7 +16,7 @@ def decorator(func):
         test = func()#Обязательно ли вызывать функцию?
         time.sleep(2)
         print('Выходим из обёртки')
-        return test  #обязателен ли тут возврат?
+        # return test  #обязателен ли тут возврат?
         # обертка может ничего не возвращать
     return wrapper
 
@@ -28,11 +28,12 @@ def decorator(func):
 def some_text():
     """Какая-то логика"""
     print('вычисления')
-    return "Возврат"
+    # return "Возврат"
 
 
 
 print(some_text())
+
 
 
 

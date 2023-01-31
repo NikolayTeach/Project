@@ -106,10 +106,32 @@ from beartype import beartype
 # print(result)
 
 
+# @beartype
+# def custom_sum(first: int, second: int) -> int:
+#     """Сложение данных"""
+#
+#     return first + second
+#
+# print(custom_sum("1","2"))
+
+from beartype import beartype
+
 @beartype
-def custom_sum(first: int, second: int) -> int:
-    """Сложение данных"""
+def analyze_the_string(text: str) -> float | str:
+    """Определяю, содержатся ли во входящей строке цифры
+    и, в зависимости от результата, привожу к float"""
+    d = text.isdigit()
 
-    return first + second
+    b = text.replace(',', '.')
+    if d is True:
+        return int(a)
+    elif '.' in text:
+        return float(b)
+    elif text[0] == '-':
+        return float(b)
+    else:
+        return 'Некорректная строка'
 
-print(custom_sum("1","2"))
+a = '-2,4'
+
+print(analyze_the_string(a))

@@ -1,0 +1,19 @@
+{
+  "first_name": "Nikolai",
+  "last_name": "Nagornyi",
+  "age": 32,
+  "hobbies": [
+    "tennis",
+    "skying"
+  ],
+  "children": [
+    {
+      "first_name": "Aleksandra",
+      "age": 3
+    },
+    {
+      "first_name": "Oleg",
+      "age": 12
+    }
+  ]
+}

@@ -169,19 +169,12 @@ from typing import Generator, Union
 #
 # print(func(name=1))
 
-# a = range(1, 15)
-# random_list = []
-# for i in a:
-#     if i % 2 == 0:
-#         random_list.append(i)
+a = range(1, 15)
+random_list = []
+for i in a:
+    if i % 2 == 0:
+        random_list.append(i)
 
 
 # random_list = [i*7 for i in range(1, 15) if i % 2 == 0]
 # print(random_list)
-
-
-def func() -> None:
-    print(1+2)
-
-
-print(func())
